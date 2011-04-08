@@ -7,8 +7,6 @@ def same_fringe(l1, l2):
 
     >>> same_fringe([1, [2,3], [[4,5,6]]], [1, 2, 3, [4,5], 6])
     True
-    >>> same_fringe([1,2,3], [[3,2], 1])
-    False
     """
 
 def sort_by_freq(l):
